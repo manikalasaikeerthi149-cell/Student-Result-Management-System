@@ -139,9 +139,9 @@ This project is open source and available under the **MIT License**.
 
 **Sai Keerthi**
 
-GitHub: https://github.com/YourUsername
+GitHub: 
 
-LinkedIn: https://linkedin.com/in/YourLinkedIn
+LinkedIn: https://www.linkedin.com/in/saikeerthi914182?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
 ---
 
