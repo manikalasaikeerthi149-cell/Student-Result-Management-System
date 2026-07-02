@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Result Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1 class="title">🎓 Student Result Management System</h1>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Total Students</h3>
+            <h1 id="students">0</h1>
+        </div>
+
+        <div class="card">
+            <h3>Average Marks</h3>
+            <h1 id="average">0</h1>
+        </div>
+
+        <div class="card">
+            <h3>Highest Marks</h3>
+            <h1 id="highest">0</h1>
+        </div>
+
+    </div>
+
+    <div class="form">
+
+        <input type="text" id="name" placeholder="Student Name">
+
+        <input type="text" id="roll" placeholder="Roll Number">
+
+        <input type="number" id="math" placeholder="Math">
+
+        <input type="number" id="science" placeholder="Science">
+
+        <input type="number" id="english" placeholder="English">
+
+        <button onclick="addStudent()">Add Result</button>
+
+    </div>
+
+    <input class="search"
+           type="text"
+           placeholder="🔍 Search Student..."
+           onkeyup="searchStudent(this.value)">
+
+    <table>
+
+        <thead>
+
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Math</th>
+            <th>Science</th>
+            <th>English</th>
+            <th>Total</th>
+            <th>Average</th>
+            <th>Grade</th>
+            <th>Action</th>
+        </tr>
+
+        </thead>
+
+        <tbody id="table">
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
